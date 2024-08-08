@@ -1,0 +1,162 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background-color: gold;
+    margin: 0px;
+}
+
+hr {
+    border-color: rgb(75, 75, 75);
+}
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.hrline {
+    margin: 100px;
+    padding: 0px;
+}
+
+#about {
+    margin: 100px; 
+}
+#about-p {
+    font-size:larger;
+}
+
+#gallery {
+    margin: 100px; 
+}
+
+#contact {
+    margin-left: 100px;
+    margin-top: 500px; 
+}
+
+.text-left {
+    float:left;
+    width:70%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    background: lightgoldenrodyellow;
+    color: black;
+}
+
+.navbar .align-center img {
+    background-image: url(logo.png);
+    width: 100px;
+    height: auto;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin-right: 21%;
+    border-color: black;
+}
+
+
+
+#band-main {
+    background-image: url(band.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+    border-color: lightgoldenrodyellow;
+}
+
+a img {
+    max-width: 70%;
+    height: auto;
+}
+
+#hospital {
+    width: auto;
+    height: auto;
+    float:right;
+    padding-right: 15%;
+
+}
+
+
+
+.gallery {
+    margin-left: 180px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+  
+.gallery:hover {
+    border: 1px solid #777;
+}
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+/* old navbar
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+
+}
+
+.navbar a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(87, 87, 87);
+}
+
+.navbar li{
+    float: left;
+}
+*/
